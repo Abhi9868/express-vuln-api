@@ -23,7 +23,7 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-  res.json({ service: "vuln-express chat API", status: "ok" });
+  res.json({ service: "vuln-express api is running", status: "ok" });
 });
 
 // Mount prefixes — route extractor must combine these with sub-router paths.
